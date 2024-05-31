@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace _30_5_tarefa_design_pattern
 {
-    public class Carro : ILoja
+    public class Carro : ILoja//herda a interface loja
     {
         public string Nome { get; set; }
         public int Preco { get; set; }
